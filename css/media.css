@@ -1,0 +1,130 @@
+/* Extra  small devices (portrait phone, less then 576px) */
+@media (max-width: 575.98px){
+    /* Header Section Strat */
+   .menu ul li a {
+    padding: 0 0 !important;
+    text-align: right;
+   }
+  /* Header Section End */
+  .silder {
+    /* background-color: #fcdb00; */
+    padding-bottom: 60px;
+}
+.cid {
+    bottom: -50px;
+}
+.cid li {
+    width: 13px;
+    height: 13px;
+}
+.s_content h1 {
+    font-size: 25px;
+}
+.s_content h2 {
+    margin: 15px 0;
+}
+.s_content p {
+    margin-bottom: 20px;
+}
+.s_icon li i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+    /* silder img */
+    .s_img img {
+        display: none;
+    }
+    /* Silder Section Start */
+    .s_icon {
+        font-size: 50px;
+        text-align: center;
+    }
+    /* Silder Section End  */
+     .s_content{
+        margin-top: 40px;
+    }
+
+    .s_content {
+        margin-top: 40px;
+    }
+    .feature-section {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .s_text h2 {
+        text-align: center;
+    }
+    .s_text p {
+        text-align: center;
+    }
+    .m_top {
+        margin-top: 30px;
+    }
+    .f_submit{
+        margin-top: 20px;
+    }
+  
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* nav bar  */
+    .menu ul li a {
+        padding: 0 0 !important;
+        text-align: right;
+       }
+    /* nav bar  */
+    /* silder img */
+    .s_img img {
+        display: none;
+    }
+    /* silder img */
+    /* footer section */
+    .f_1{
+        text-align: center;
+     }
+    /* footer section */
+    /* con sextion */
+    .s_text h2 {
+        text-align: center;
+    }
+    .s_text p {
+        text-align: center;
+    }
+    .feature-section {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .m_top{
+        margin-top: 40px;
+    }
+ }
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991.98px) {
+/* nav bar */
+.menu ul li a {
+    padding: 0 0 !important;
+    text-align: right;
+   } 
+   /* nav bar */
+   /* silder  */
+   .s_content{
+    margin-top: 40px;
+}
+.s_content {
+    margin-top: 40px;
+}
+/* nav bar */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    /* silder section strat */
+    .s_img img{
+        margin-left: 50px;
+    }
+    /* silder section End */
+}
